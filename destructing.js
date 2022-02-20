@@ -3,8 +3,8 @@ const fish = {
     phone: '0171700000', address: 'Barishal', dress: 'silver'
 };
 
-const phone = fish.phone;
-console.log(phone);
+// const phone = fish.phone;
+// console.log(phone);
 
 const { price, phone, dress } = fish;
-console.log(phone);
+console.log(dress);
