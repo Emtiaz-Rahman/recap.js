@@ -10,8 +10,9 @@ const products = [
     { name: 'water glass', price: 3, color: 'white' }
 
 ]
-const productName = products.forEach(product => product.price);
-console.log(productName);
+const productName = products.filter(product => product.price <60);
+const productPrice=productName.map(price1=>price1.price)
+console.log(productPrice);
 
 products.map(product => console.log(product));
 products.forEach(product => console.log(product));
