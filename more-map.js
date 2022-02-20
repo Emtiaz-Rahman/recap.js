@@ -9,7 +9,7 @@ const products = [
     { name: 'sticky note', price: 25, color: 'pink' },
     { name: 'water glass', price: 3, color: 'white' }
 
-]
+];
 const productName = products.filter(product => product.price <60);
 const productPrice=productName.map(price1=>price1.price)
 console.log(productPrice);
